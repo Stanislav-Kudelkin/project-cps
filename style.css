@@ -225,12 +225,9 @@ body {
     display: none;
 }
 
-.content__icon-logo {
-    padding-bottom: 30px;
-}
-
 .content__picture {
     width: 100%;
+    padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
@@ -296,13 +293,10 @@ body {
     }
 
     .content__picture {
+        margin-right: 25px;
         border-radius: 2%;
         width: 360px;
         height: 210px;
-    }
-
-    .content__icon-logo {
-        margin-right: 25px;
     }
 
     .content__hidden {
@@ -420,17 +414,13 @@ body {
         border-radius: 2%;
     }
 
-    .content__icon-logo {
-        margin-right: 30px;
-    }
-
     .content__text {
-        /* min-width: 500px; */
         font-size: 14px;
     }
 
     .content__info {
         margin-top: 0;
+        margin-right: 30px;
         justify-content: space-between;
     }
 }
